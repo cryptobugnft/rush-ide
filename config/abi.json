@@ -1,0 +1,26 @@
+{
+    "STAKING": {
+        "NAME": "RUSHSTAKE",
+        "ABI": "/abi/engineblock.json"
+    },
+    "TOKENREWARD": {
+        "NAME": "CRUDE OIL",
+        "ABI": "/abi/crude.json"
+    },
+    "NITROBOOST": {
+        "NAME": "NITRO BOOST",
+        "ABI": "/abi/nitro.json"
+    },
+    "RUSHMARKET": {
+        "NAME": "RUSH MARKET",
+        "ABI": "/abi/rushmarket.json"
+    },
+    "RUSHLEVEL": {
+        "NAME": "RUSH LEVEL",
+        "ABI": "/abi/rushlevel.json"
+    },
+    "ERC721": {
+        "NAME": "ERC721 Standard",
+        "ABI": "/abi/nft.json"
+    }
+}

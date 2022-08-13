@@ -22,5 +22,9 @@
     "ERC721": {
         "NAME": "ERC721 Standard",
         "ABI": "/abi/nft.json"
+    },
+    "REWARDER": {
+        "NAME": "Custom Token Rewarder",
+        "ABI": "/abi/rewarder.json"
     }
 }

@@ -118,7 +118,12 @@
 			},
 			{
 				"internalType": "address",
-				"name": "VaultAddress",
+				"name": "JeepAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "BUGAddress",
 				"type": "address"
 			},
 			{
@@ -175,6 +180,24 @@
 		"name": "DisableVault",
 		"outputs": [],
 		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "vaultId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "tokenIds",
+				"type": "uint256[]"
+			}
+		],
+		"name": "EmergencyUnstake",
+		"outputs": [],
+		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
@@ -330,6 +353,19 @@
 			}
 		],
 		"name": "setDefEmission",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "param",
+				"type": "bool"
+			}
+		],
+		"name": "SetEnableNitroClean",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -958,7 +994,12 @@
 		"outputs": [
 			{
 				"internalType": "uint256",
-				"name": "",
+				"name": "_pendReward",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_totalStake",
 				"type": "uint256"
 			}
 		],

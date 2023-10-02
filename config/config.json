@@ -4,9 +4,9 @@
         "SYMBOL": "BCH",
         "ID": 10000,
         "GAS_LIMIT": 285000,
-        "API": "https://sonar.cash/api?module=account&action=tokenlist&address",
-        "BALANCE": "https://sonar.cash/api?module=account&action=tokenbalance&contractaddress=@CONTRACTADDRESS&address=@ACCOUNT",
-        "WALLET": "https://sonar.cash/api?module=account&action=balance&address=@ACCOUNT"
+        "API": "https://smartscout.cash/api?module=account&action=tokenlist&address",
+        "BALANCE": "https://smartscout.cash/api?module=account&action=tokenbalance&contractaddress=@CONTRACTADDRESS&address=@ACCOUNT",
+        "WALLET": "https://smartscout.cash/api?module=account&action=balance&address=@ACCOUNT"
     },
     "TESTNET": {
         "NAME": "SmartBCH Testnet",
